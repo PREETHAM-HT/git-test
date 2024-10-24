@@ -1,0 +1,44 @@
+* {
+    font-family:'Outfit', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+#container {
+    width: 350px;
+    height: 540px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.Qr {
+    text-align: center;
+}
+
+.Qr img {
+    width: 100%;
+    max-width: 300px; /* Make sure the QR code fits inside the container */
+    height: auto;
+    border-radius: 15px; /* Fix the border radius for the image */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 1rem;
+    color: hsl(218, 20%, 50%);
+}
